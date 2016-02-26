@@ -1,0 +1,1 @@
+jarsigner -verbose -keystore .\xiaorui upload.jar xiaorui

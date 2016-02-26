@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>文件上传applet小程序</title>
+</head>
+<body>
+	<div>
+		
+		<applet id="upload" alt="文件上传applet小程序" width="500" height="320"
+			code="com.image.applet.ui.AppletMain.class" codebase="." Archive="upload.jar">
+			
+			<param name="host" value="192.168.1.254">
+			<param name="port" value="21">
+			<param name="userName" value="image">
+			<param name="password" value="123456">
+			
+			<param name="acceptAllFileFilterUsed" value="false">
+			<param name="isDirectorySelectionEnabled" value="true">
+			<param name="isFileSelectionEnabled" value="true">
+			<param name="fileNameExtension" value="avi,jpg">
+			<param name="isFileHidingEnabled" value="true">
+			<param name="isMultiSelectionEnabled" value="true">
+			<param name="maxFileSize" value="2147483648">
+		</applet>
+		
+		<!--
+		<object classid="clsid:8AD9C840-044E-11D1-B3E9-00805F499D93"  
+			width="500" height="320"  
+			codebase="http://java.sun.com/products/plugin/autodl/jinstall-1_5_0-windows-i586.cab#Version=1,5,0,0">  
+			<param name="code" value="com.image.applet.ui.AppletMain.class">  
+			<param name="codebase" value=".">
+			<param name="archive" value="upload.jar">
+			<param name="host" value="192.168.1.254">
+			<param name="port" value="21">
+			<param name="userName" value="image">
+			<param name="password" value="123456">
+			
+			<param name="acceptAllFileFilterUsed" value="false">
+			<param name="isDirectorySelectionEnabled" value="true">
+			<param name="isFileSelectionEnabled" value="true">
+			<param name="fileNameExtension" value="avi,jpg">
+			<param name="isFileHidingEnabled" value="true">
+			<param name="isMultiSelectionEnabled" value="true">
+			<param name="maxFileSize" value="2147483648">
+		</object>  
+		-->
+	</div>
+</body>
+</html>
